@@ -1,0 +1,49 @@
+# assignment-5-3
+
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package constructordemo;
+
+/**
+ *
+ * @author hp1
+ */
+public class ConstructorDemo {
+
+   int l,b;
+   int s;
+        
+    
+    
+    ConstructorDemo(int side){
+      
+        s=side;
+        System.out.println("The area of square is"+(s*s));
+        
+        
+    }
+ConstructorDemo(int length,int breadth){
+l=length;
+b=breadth;
+    System.out.println("The area of rectangle is"+(l*b));
+    
+    
+    
+}
+    public static void main(String[] args) {
+        // TODO code application logic here
+        ConstructorDemo c=new ConstructorDemo(20);
+        ConstructorDemo f=new ConstructorDemo(10,15);
+        
+      
+        
+    }
+    
+}
+
+
+
